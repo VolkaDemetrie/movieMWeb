@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화소개</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        #content{padding:10px;}
+        .bg-header{
+            background-color: #560801 !important;
+            text-shadow: none !important;
+            
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <!-- header -------------------------------------------------------------->
+        <div data-role="header" class="bg-header">
+            <h3 style="color: #EBCB9A;">영화소개</h3>
+            <a href="index.html" rel="external" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="index.html" rel="external" data-icon="back" data-iconpos="notext">Prev</a>
+        </div>
+        <!-- header -->
+        <!-- navigation ----------------------------------------------------------->
+        <div data-role="navbar">
+            <ul>
+                <li><a href="introduce01.html" class="ui-btn-active" rel="external">영화줄거리</a></li>
+                <li><a href="introduce02.html" rel="external">영화등장인물</a></li>
+                <li><a href="introduce03.html" rel="external">영화평점</a></li>
+            </ul>
+        </div>
+        <!-- navigation -->
+        <!-- content ------------------------------------------------------------->
+        <div data-role="ui-content" id="content">
+            <h3>영화줄거리</h3>
+            <h4>복수의 끝에서 놈을 만났다!</h4>
+            <img src="img/Django.jpg" alt="영화이미지" width="100%">
+            <h4>
+                "D.J.A.N.G.O, The D is Silent"
+            </h4>
+            <p>
+                아내를 구해야 하는 분노의 로맨티스트 ‘장고’<br>
+                그를 돕는 정의의 바운티 헌터 ‘닥터 킹’<br>
+                그들의 표적이 된 욕망의 마스터 ‘캔디’<br>
+                복수의 사슬이 풀리면, 세 남자의 피도 눈물도 없는 대결이 시작된다!<br>
+                와일드 액션 로맨스, 장고:분노의 추적자
+            </p>
+            
+        </div>
+        <!-- content -->
+        <!-- footer ------------------------------------------------------------------>
+        <div data-role="footer" class="bg-header" width=100%>
+            <h3 style="color: #EBCB9A; ">&copy;CGV. All righsts reserved.</h3>
+        </div>
+        <!-- footer -->
+            
+    </div>
+</body>
+</html>

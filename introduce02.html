@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화소개</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .bg-header{
+            background-color: #560801 !important;
+            text-shadow: none !important;
+            
+        }
+        
+        #content{padding:10px;}
+        .ui-grid-a{
+            padding-bottom: 10px;
+        }
+        .ui-block-a img,.ui-block-b img{
+            float: left;
+            margin-right: 10px;
+        }
+        .ui-block-a div,.ui-block-b div{
+            color:blue;
+            font-weight: bold;
+        }
+        .ui-block-a span,.ui-block-b span{
+            color:red;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <!-- header -------------------------------------------------------------->
+        <div data-role="header" class="bg-header">
+            <h3 style="color: #EBCB9A;">영화소개</h3>
+            <a href="index.html" rel="external" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="index.html" rel="external" data-icon="back" data-iconpos="notext">Prev</a>
+        </div>
+        <!-- header -->
+        <!-- navigation ----------------------------------------------------------->
+        <div data-role="navbar">
+            <ul>
+                <li><a href="introduce01.html" rel="external">영화줄거리</a></li>
+                <li><a href="introduce02.html" class="ui-btn-active" rel="external">영화등장인물</a></li>
+                <li><a href="introduce03.html" rel="external">영화평점</a></li>
+            </ul>
+        </div>
+        <!-- navigation -->
+        <!-- content ------------------------------------------------------------->
+        <div data-role="ui-content" id="content">
+            <h3>영화등장인물</h3>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <img src="img/jamie.jpg" alt="제이미 폭스" width="45%">                    
+                    <div>제이미 폭스</div>
+                    <div style="font-size: 10px; color: gray;">Jamie Foxx</div><br>
+                    <span>주연</span><span style="font-size: 10px; color: black;"> | 장고 역</span>
+                    <br>
+                    <br>
+                    <p>         
+                    소울,2020<br>
+                    프로젝트 파워,2018<br>
+                    </p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/christo.jpg" alt="크리스토프 발츠" width="45%">                    
+                    <div>크리스토프 발츠</div>
+                    <div style="font-size: 10px; color: gray;">Christoph Waltz</div>
+                    <span>주연</span><span style="font-size: 10px; color: black;"> | 닥터 킹 슐츠 역</span>
+                    <p>
+                    리프킨스 페스티발,2020<br>
+                    쿠엔틴 타란티노 8,2019<br>
+                    </p>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <img src="img/leo.jpg" alt="레오나르도 디카프리오"width="45%">                    
+                    <div>레오나르도 디카프리오</div>
+                    <div style="font-size: 10px; color: gray;">
+                        Leonardo Dicaprio
+                    </div>
+                    
+                    <span>주연</span><span style="font-size: 10px; color: black;"> | 캘빈 캔디 역</span>
+                    <br>
+                    <br>
+                    <p>돈트 룩 업,2020<br>
+                    앤드 위 고 그린,2019<br>
+                    </p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/kerry.jpg" alt="케리 워싱턴"width="45%">                    
+                    <div>케리 워싱턴</div>
+                    <div style="font-size: 10px; color: gray;">
+                        Kerry Washington
+                    </div>
+                    <br>
+                    <span>주연</span><span style="font-size: 10px; color: black;"> | 브룸힐다 본 샤프트 역</span>
+                    <br>
+                    <p>
+                    더 프롬,2020<br>
+                    카3: 새로운 도전,2017<br>
+                    </p>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <img src="img/samuel.jpg" alt="사무엘 L. 잭슨"width="45%">                    
+                    <div>사무엘 L. 잭슨</div>
+                    
+                    <div style="font-size: 10px; color: gray;">
+                        Samuel L. Jackson
+                    </div>
+                    <span>주연</span><span style="font-size: 10px; color: black;"> | 스티븐 역</span>
+                    <br>
+                    <br>
+                    <p>스파이럴,2020<br>
+                    더 뱅커,2019<br>
+                    </p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/walton.jpg" alt="월튼 고긴스"width="45%">                    
+                    <div>월튼 고긴스</div>
+                    <div style="font-size: 10px; color: gray;">
+                        Walton Goggins
+                    </div>
+                    <br>
+                    <span>주연</span><span style="font-size: 10px; color: black;"> | 빌리 크래시 역</span>
+                    <br>
+                    <p>
+                    팻맨,2020<br>
+                    비밀이 아닌 이야기,2020<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <!-- footer ------------------------------------------------------------------>
+        <div data-role="footer" class="bg-header" width=100%>
+            <h3 style="color: #EBCB9A; ">&copy;CGV. All righsts reserved.</h3>
+        </div>
+        <!-- footer -->
+            
+    </div>
+</body>
+</html>
